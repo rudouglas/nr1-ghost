@@ -1,0 +1,7 @@
+{
+  "schemaType": "LAUNCHER",
+  "id": "ghost-launcher",
+  "displayName": "GhostLauncher",
+  "description": "Describe me",
+  "rootNerdletId": "e5a7a885-b4d5-47e6-ad52-e9f20efb75c5.ghost-nerdlet"
+}

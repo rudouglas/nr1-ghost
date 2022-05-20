@@ -1,0 +1,6 @@
+{
+    "schemaType": "NERDPACK",
+    "id": "e5a7a885-b4d5-47e6-ad52-e9f20efb75c5",
+    "displayName": "Ghost",
+    "description": "See accounts in your Org that have no Metrics or Events reporting"
+}
