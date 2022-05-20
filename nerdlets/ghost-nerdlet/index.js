@@ -60,7 +60,7 @@ const GhostNerdlet = (props) => {
                   <Grid>
                     <GridItem columnStart={2} columnEnd={12}>
                       <HeadingText type={[HeadingText.TYPE.HEADING_1]}>
-                        <Spinner inline /> Loading query for data for{" "}
+                        <Spinner inline /> Loading Event data for{" "}
                         {accountList.length} accounts...
                       </HeadingText>
                     </GridItem>
@@ -105,7 +105,7 @@ const GhostNerdlet = (props) => {
                                 <HeadingText
                                   type={[HeadingText.TYPE.HEADING_1]}
                                 >
-                                  <Spinner inline /> Loading query for data for{" "}
+                                  <Spinner inline /> Loading Metric data for{" "}
                                   {accountList.length} accounts...
                                 </HeadingText>
                               </GridItem>
