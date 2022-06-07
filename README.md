@@ -1,4 +1,4 @@
-# ghost
+# Ghost
 
 ## Overview
 
@@ -6,11 +6,23 @@ This nerdpack analyses the accounts in your Organisation in New Relic, and retur
 
 ## Getting started
 
-Run the following scripts:
+Clone repo then:
 
 ```
 npm install
-npm start
+nr1 nerdpack:uuid -gf
+```
+
+To publish to your account:
+
+```
+nr1 nerdpack:publish
+```
+
+To serve locally:
+
+```
+nr1 nerdpack:serve
 ```
 
 Visit https://one.newrelic.com/?nerdpacks=local and :sparkles:
