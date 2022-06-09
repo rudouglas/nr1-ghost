@@ -49,7 +49,7 @@ export default class MetricNRQL extends React.Component {
                         }
                     }
                 `;
-        console.log({ query });
+        // console.log({ query });
         // const noReportingEvents =
         const x = NerdGraphQuery.query({
           query: query,
@@ -57,7 +57,7 @@ export default class MetricNRQL extends React.Component {
           fetchPolicyType: NerdGraphQuery.FETCH_POLICY_TYPE.NO_CACHE,
         });
         x.then((results) => {
-          console.log(results);
+          // console.log(results);
           accountList.forEach((account) => {
             if (
               results.data.actor[`account_${account.id}`]?.nrql?.results
@@ -99,9 +99,9 @@ export default class MetricNRQL extends React.Component {
         console.log(`Error with request ${i + 1}`);
       }
     }
-    console.log({ resultData });
+    // console.log({ resultData });
     const noReportingEvents = resultData.filter(res => res.relevantMetrics.length < 4);
-    console.log({ noReportingEvents });
+    // console.log({ noReportingEvents });
     this.setState({ queryData: noReportingEvents, loading: false });
   }
 
